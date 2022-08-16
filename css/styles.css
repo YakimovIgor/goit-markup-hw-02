@@ -3,6 +3,7 @@
   --primary-text-color: #757575;
   --header-color: #212121;
   --accent-color: #2196f3;
+  --accent-btn-color: #188ce8;
 }
 
 body {
@@ -73,20 +74,24 @@ ul {
   color: var(--color);
 }
 
-.section-hero-button:hover,
-:focus {
+.section-hero-button:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.section-hero-button:focus {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .section-hero-button {
-  background: var(--accent-color);
+  background: var(--accent-btn-color);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: inherit;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -164,15 +169,24 @@ ul {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.portfolio-nav-button:hover,
-focus {
-  background: var(--accent-color);
+.portfolio-nav-button:hover {
+  cursor: pointer;
+  background: var(--accent-btn-color);
   border: 1px solid #000000;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
 
-..portfolio-nav-button {
+.portfolio-nav-button:focus {
+  cursor: pointer;
+  background: var(--accent-btn-color);
+  border: 1px solid #000000;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.portfolio-nav-button {
+  color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -258,7 +272,7 @@ focus {
   border: 1px solid #000000;
 }
 
-.footer-mail {
+.footer-contact {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -266,7 +280,7 @@ focus {
   border: 1px solid #000000;
 }
 
-.footer-telephone {
+.footer-contact {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -274,12 +288,18 @@ focus {
   border: 1px solid #000000;
 }
 
-.footer-mail:hover,
-:focus {
-  color: var(--accent-color);
+.footer-contact:hover {
+  color: #2196f3;
 }
 
-.footer-telephone:hover,
-:focus {
-  color: var(--accent-color);
+..footer-contact:focus {
+  color: #2196f3;
+}
+
+.footer-contact:hover {
+  color: #2196f3;
+}
+
+.footer-contact:focus {
+  color: #2196f3;
 }
