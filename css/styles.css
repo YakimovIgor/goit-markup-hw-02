@@ -29,8 +29,10 @@ ul {
 .black-logo {
   font-family: "Raleway";
   font-style: normal;
-  color: var(--header-color);
-  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
 }
 
 .link.current {
@@ -156,4 +158,128 @@ ul {
   line-height: 1.2;
   text-align: center;
   color: #757575;
+}
+
+.portfolio-nav {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.portfolio-nav-button:hover,
+focus {
+  background: var(--accent-color);
+  border: 1px solid #000000;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+..portfolio-nav-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.demonstration-image-techno {
+  background: var(--color);
+}
+
+.demonstration-image-basketball {
+  background: var(--color);
+  border: 1px solid #eeeeee;
+}
+
+.demonstration-image-fish {
+  background: var(--color);
+  border: 1px solid #eeeeee;
+}
+
+.demonstration-image-headphones {
+  background: var(--color);
+  border: 1px solid #eeeeee;
+}
+
+.demonstration-image-boxes {
+  background: var(--color);
+  border: 1px solid #eeeeee;
+}
+
+.demonstration-image-monitor {
+  background: var(--color);
+  border: 1px solid #eeeeee;
+}
+
+.demonstration-image-book {
+  background: var(--color);
+  border: 1px solid #eeeeee;
+}
+
+.demonstration-image-lab {
+  background: var(--color);
+  border: 1px solid #eeeeee;
+}
+
+.demonstration-image-notebook {
+  background: var(--color);
+  border: 1px solid #eeeeee;
+}
+
+.demonstration-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
+
+.demonstration-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
+}
+
+.footer {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #2f303a;
+  border: 1px solid #000000;
+}
+
+.white-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color);
+}
+
+.footer-adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color);
+  border: 1px solid #000000;
+}
+
+.footer-mail {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #000000;
+}
+
+.footer-telephone {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #000000;
+}
+
+.footer-mail:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.footer-telephone:hover,
+:focus {
+  color: var(--accent-color);
 }
