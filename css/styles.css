@@ -69,6 +69,7 @@ a {
 }
 
 .contacts {
+  color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -195,7 +196,7 @@ a {
 }
 
 .active.button {
-  color: #212121;
+  color: #ffffff;
   background: var(--accent-btn-color);
   border-radius: 4px;
   font-family: inherit;
